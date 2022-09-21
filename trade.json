@@ -1,11 +1,11 @@
 [  {
-    "id" : 1,
-    "type" : "buy",
-    "user_id" : 23,
-    "symbol" : "BSE",
-    "shares" : 70,
-    "price" : 123,
-    "timestamp" : 1540157484102
+        "id" : 1,
+        "type" : "buy",
+        "user_id" : 23,
+        "symbol" : "BSE",
+        "shares" : 70,
+        "price" : 123,
+        "timestamp" : 1540157484102
     },
     {
         "id" : 2,
@@ -15,14 +15,14 @@
         "shares" : 70,
         "price" : 123,
         "timestamp" : 1540157484102
-        },
-        {
-            "id" : 3,
-            "type" : "buy",
-            "user_id" : 23,
-            "symbol" : "BSE",
-            "shares" : 70,
-            "price" : 123,
-            "timestamp" : 1540157484102
-            }
+    },
+    {
+        "id" : 3,
+        "type" : "buy",
+        "user_id" : 23,
+        "symbol" : "BSE",
+        "shares" : 70,
+        "price" : 123,
+        "timestamp" : 1540157484102
+        }
 ]
