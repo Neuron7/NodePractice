@@ -26,16 +26,22 @@ console.log("Name");
 //closure = function combined together with its lexical scope is called closure
 function x(){
     var a = 10;
-    function y(){
-        console.log(a);
+    function y(ar){
+        var b =1000;
+        function r(){
+            console.log(a,b, ar);
+        }
+        r();
     }
-    a=195465;
-    return y;
+    y("Hello MF");
 }
+x();
+// var z= x();
+// z();
 
-var z = x();
-console.log(z);
+// var z = x();
+// console.log(z);
 
-z();
+// z();
 
 
